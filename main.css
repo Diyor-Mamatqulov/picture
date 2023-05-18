@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.inner {
+  margin-right: 100px;
+  font-size: 24px;
+  text-decoration-line: none;
+}
+.inner-two {
+  font-size: 24px;
+  text-decoration-line: none;
+}

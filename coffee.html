@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>classwork</title>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <a class="inner" href="./index.html">First</a>
+      <a class="inner-two" href="./coffee.html">Last</a>
+    </div>
+    
+    <!-- webP -->
+    <picture>
+
+      <source media="(max-width: 320px)"
+      width="279"
+      height="156"
+      srcset="./images/mobile.webP 1x,./images/mobile@2x.webP 2x">
+      
+      
+      
+      <source media="(max-width: 768px)"
+      width="573"
+      height="320"
+      srcset="./images/tablet.webP 1x,./images/tablet@2x.webP 2x">
+      
+      <source type="image/webP"
+      srcset="./images/desktop.webP 1x,./images/desktop@2x.webP 2x">
+      
+      <!-- PNG -->
+      
+      <source media="(max-width: 320px)"
+      width="279"
+      height="156"
+      srcset="./images/mobile.png 1x,./images/mobile@2x.png 2x">
+      
+      
+      <source media="(max-width: 768px)"
+      width="573"
+      height="320"
+      srcset="./images/tablet.png 1x,./images/tablet@2x.png 2x">
+      
+      <img src="./images/desktop.png" 
+      width="445" height="474"
+      srcset="./images/desktop.png 1x,./images/desktop@2x.png 2x"
+      alt="A cup of coffee">
+      
+      
+    </picture>
+  </div>
+</body>
+</html>

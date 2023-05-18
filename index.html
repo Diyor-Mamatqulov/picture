@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>classwork</title>
+</head>
+<body>
+  <div class="container">
+    
+    
+    <div class="wrapper">
+      <a class="inner" href="./index.html">First</a>
+      <a class="inner-two" href="./coffee.html">Last</a>
+    </div>
+
+
+    <!-- webP -->
+    <picture>
+
+      <source media="(min-width:992px )"
+      width="445"
+      height="520"
+      srcset="./images/desktopone.webP 1x, ./images/desktopone@2x.webP 2x">
+      
+      <source media="(min-width:768px )"
+      width="281"
+      height="470"
+      srcset="./images/tabletone.webP 1x, ./images/tabletone@2x.webP 2x">
+      
+      <source type="image/webP"
+      srcset="./images/mobileone.webP 1x, ./images/mobileone@2x.webP 2x">
+      
+      
+      <!-- PNG -->
+      <source media="(min-width:992px )"
+      width="445"
+      height="520"
+      srcset="./images/desktopone.png 1x, ./images/desktopone@2x.png 2x">
+      
+      <source media="(min-width:768px )"
+      width="281"
+      height="470"
+      srcset="./images/tabletone.png 1x, ./images/tabletone@2x.png 2x">
+      
+      <img src="./images/mobileone.png" 
+      width="327" height="400" 
+      srcset="./images/mobileone.png 1x, ./images/mobileone@2x.png 2x"
+      alt="Person's image">
+      
+      
+    </picture>
+  </div>
+</body>
+</html>
